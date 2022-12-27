@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.links {
+    display: flex;
+}
