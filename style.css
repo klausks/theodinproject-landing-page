@@ -1,9 +1,121 @@
-body {
+.content {
     display: flex;
     flex-direction: column;
+}
+
+.content>div {
+    padding: 1rem 10rem;
+}
+
+.header {
+    display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.header>h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header>a {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .links {
     display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery-card {
+    min-width: 150px;
+}
+
+.card-image {
+    min-height: 150px;
+    min-width: 150px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 20rem 10rem;
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.bottom {
+    padding: 5rem 10rem;
+}
+
+.signUp {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 5rem;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.signUp>button {
+    padding: 10px 20px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.signUp-text>h3 {
+    font-style: bold;
+    margin: auto;
+}
+
+.signUp-text>p {
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
 }
